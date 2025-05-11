@@ -6,26 +6,26 @@ This document provides comprehensive details for the `SuperKamelPlugin`, a Minec
 
 ## Table of Contents
 
-1. [Overview](#overview)
-2. [Prerequisites](#prerequisites)
-3. [Installation & Deployment](#installation--deployment)
-4. [Configuration & Default Settings](#configuration--default-settings)
-5. [Core Concepts](#core-concepts)
-6. [Namespaces & Persistent Data Keys](#namespaces--persistent-data-keys)
-7. [Event Handlers & Hooks](#event-handlers--hooks)
-
-    * [onEnable](#onEnable)
-    * [onCamelSpawn](#onCamelSpawn)
-    * [onBreed](#onBreed)
-    * [onCamelInteract](#onCamelInteract)
-    * [onInventoryClick & onInventoryClose](#onInventoryClick--onInventoryClose)
-    * [onCamelDeath](#onCamelDeath)
-8. [Item Weight System](#item-weight-system)
-9. [Inventory Lifecycle & GUI](#inventory-lifecycle--gui)
-10. [Speed Calculation & Slowdown Formula](#speed-calculation--slowdown-formula)
-11. [Customization & Extension Points](#customization--extension-points)
-12. [Troubleshooting & FAQs](#troubleshooting--faqs)
-13. [License & Contribution](#license--contribution)
+- [Table of Contents](#table-of-contents)
+- [Overview](#overview)
+- [Prerequisites](#prerequisites)
+- [Installation \& Deployment](#installation--deployment)
+- [Configuration \& Default Settings](#configuration--default-settings)
+- [Core Concepts](#core-concepts)
+- [Namespaces \& Persistent Data Keys](#namespaces--persistent-data-keys)
+- [Event Handlers \& Hooks](#event-handlers--hooks)
+  - [`onEnable()`](#onenable)
+  - [`onCamelSpawn(EntitySpawnEvent e)`](#oncamelspawnentityspawnevent-e)
+  - [`onBreed(EntityBreedEvent event)`](#onbreedentitybreedevent-event)
+  - [`onCamelInteract(PlayerInteractEntityEvent event)`](#oncamelinteractplayerinteractentityevent-event)
+  - [`onInventoryClick` \& `onInventoryClose`](#oninventoryclick--oninventoryclose)
+  - [`onCamelDeath(EntityDeathEvent e)`](#oncameldeathentitydeathevent-e)
+- [Item Weight System](#item-weight-system)
+- [Inventory Lifecycle \& GUI](#inventory-lifecycle--gui)
+- [Speed Calculation \& Slowdown Formula](#speed-calculation--slowdown-formula)
+- [Customization \& Extension Points](#customization--extension-points)
+- [Troubleshooting \& FAQs](#troubleshooting--faqs)
+- [License \& Contribution](#license--contribution)
 
 ---
 
@@ -210,6 +210,6 @@ Consider subclassing or creating event interfaces to decouple logic for easier t
 
 Contributions, issues, and pull requests are welcome on GitHub:
 
-`https://github.com/yourorg/SuperKamelPlugin`
+`https://github.com/MimoAlexer/PapermcCamelPlugin`
 
 Please follow the repository’s contribution guidelines and code style conventions.
