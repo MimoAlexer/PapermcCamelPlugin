@@ -1,0 +1,4 @@
+name: SuperKamelPlugin
+version: '1.0-SNAPSHOT'
+main: de.blockfrieden.superKamelPlugin.SuperKamelPlugin
+api-version: '1.21'
